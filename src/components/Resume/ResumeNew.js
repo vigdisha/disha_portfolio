@@ -45,6 +45,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
+            {/* non binary space == nbsp */}
             &nbsp;Download CV
           </Button>
         </Row>
