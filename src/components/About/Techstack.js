@@ -12,9 +12,12 @@ import {
 } from "react-icons/di";
 import {
   SiExpress,
-  SiHeroku,
   SiCss3,SiHtml5,
-  SiBabel
+  SiBabel,
+  SiPostgresql,
+  SiNumpy,
+  SiScikitlearn,
+  SiPandas
  
 } from "react-icons/si";
 
@@ -47,10 +50,19 @@ function Techstack() {
         <SiHtml5 />
       </Col> 
       <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql/>
+        </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
-       <Col xs={4} md={2} className="tech-icons">
-       <SiHeroku />
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNumpy />
+      </Col> 
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPandas/>
+      </Col> 
+      <Col xs={4} md={2} className="tech-icons">
+        <SiScikitlearn />
       </Col> 
        <Col xs={4} md={2} className="tech-icons">
         <SiBabel />

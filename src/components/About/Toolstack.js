@@ -5,6 +5,7 @@ import {
   SiPostman,
   SiNetlify,
   SiWindows11,
+  SiHeroku
 
 } from "react-icons/si";
 
@@ -23,6 +24,9 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+       <SiHeroku />
+      </Col> 
     </Row>
   );
 }
